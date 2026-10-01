@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arquitectura de Computadoras</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#inicio"><span class="logo">CPU</span><span>Arquitectura de Computadoras<small>Instituto Tecnológico de Saltillo</small></span></a>
+    <nav id="menu">
+      <a href="#inicio" class="active">Inicio</a>
+      <a href="#unidades">Unidad 1</a>
+      <a href="#unidades">Unidad 2</a>
+      <a href="#unidades">Unidad 3</a>
+      <a href="#unidades">Unidad 4</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="wrap">
+      <div>
+        <p class="tag">PROYECTO FINAL · AGO – DIC 2026</p>
+        <h1><span>Arquitectura de Computadoras</span></h1>
+        <div class="btns">
+          <a class="btn main" href="#unidades">Ver unidades</a>
+          <a class="btn" href="#materiales">Prácticas y tareas</a>
+        </div>
+      </div>
+      <div class="chip" aria-hidden="true">
+        <div class="pins"></div>
+        <div class="die">
+          <div class="alu">ALU</div><div class="cu">CU</div>
+          <div class="reg">REG<b id="bits">0100 0001</b></div>
+        </div>
+        <i class="dot"></i>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="intro">
+      <div class="box about">
+        <p><b>¡Hola!</b> Esta página es el proyecto final de la materia Arquitectura de Computadoras. La hice como proyecto final y me funciona para organizar lo que aprendí en el semestre y, de paso, practicar programación web con HTML y CSS.</p>
+      </div>
+      <dl class="box data">
+        <dt>ALUMNA</dt><dd class="hl">Valery Berenice Alvarado Silva</dd>
+        <dt>CARRERA</dt><dd>Ing. en Sistemas Computacionales</dd>
+        <dt>SEMESTRE</dt><dd>5to</dd>
+        <dt>DOCENTE</dt><dd class="hl">Miguel Maldonado Leza</dd>
+      </dl>
+    </section>
+
+    <section id="unidades">
+      <div class="head"><h2>Unidades</h2><p>4 unidades · del hardware a la E/S</p></div>
+      <div class="grid">
+        <a class="card u1" href="#"><small>UNIDAD 1</small><h3>Modelos de arquitectura</h3><p>Conceptos básicos, evolución de las computadoras y estructura fundamental del hardware.</p><span class="go">Entrar →</span></a>
+        <a class="card u2" href="#"><small>UNIDAD 2</small><h3>El procesador (CPU)</h3><p>Arquitectura del conjunto de instrucciones y diseño del procesador.</p><span class="go">Entrar →</span></a>
+        <a class="card u3" href="#"><small>UNIDAD 3</small><h3>Memoria</h3><p>Jerarquía de memoria, caché, memoria principal y almacenamiento secundario.</p><span class="go">Entrar →</span></a>
+        <a class="card u4" href="#"><small>UNIDAD 4</small><h3>Entrada / Salida</h3><p>Sistemas de E/S, buses del sistema y procesadores avanzados.</p><span class="go">Entrar →</span></a>
+      </div>
+    </section>
+
+    <section id="materiales">
+      <div class="head"><h2>Materiales del curso</h2><p>Se irán agregando durante el semestre</p></div>
+      <div class="list" id="lista"></div>
+    </section>
+  </div>
+</main>
+
+<footer>Proyecto final · Arquitectura de Computadoras · Instituto Tecnológico de Saltillo</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
